@@ -1,0 +1,24 @@
+{
+  "name": "framework-synwit",
+  "title": "Synwit StdPeriph Library",
+  "description": "Chip Support Library (CMSIS-Core + Synwit Standard Peripheral Driver) for Synwit (华芯微特) SWM series microcontrollers. The layout is data-driven: every supported series is described by one record in mcu.json, so adding a new series requires no changes to the platform.",
+  "keywords": [
+    "framework",
+    "spl",
+    "csl",
+    "cmsis",
+    "synwit",
+    "swm",
+    "swm341"
+  ],
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "homepage": "https://www.synwit.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synwit/platform-synwit"
+  },
+  "platforms": [
+    "synwit"
+  ]
+}
